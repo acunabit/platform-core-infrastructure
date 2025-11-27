@@ -9,6 +9,7 @@ metadata:
     cluster: cluster-1
     environment: staging
     year: "2025"
+    month: "November"
 data:
   platform: "afterpay"
   add_on: "add-on-1"
