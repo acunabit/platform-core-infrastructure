@@ -8,6 +8,7 @@ metadata:
     add-on: add-on-1
     cluster: cluster-2
     environment: development
+    year: "2025"
 data:
   platform: "afterpay"
   add_on: "add-on-1"
