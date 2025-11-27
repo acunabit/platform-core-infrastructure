@@ -1,1 +1,15 @@
-This is the config for the Cash add-on for the cluster 1.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cash-add-on-2-config
+  namespace: production
+  labels:
+    app: cash
+    add-on: add-on-2
+    cluster: cluster-1
+    environment: production
+data:
+  platform: "cash"
+  add_on: "add-on-2"
+  cluster: "cluster-1"
+  environment: "production"

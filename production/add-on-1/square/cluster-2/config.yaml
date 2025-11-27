@@ -1,1 +1,15 @@
-This is the config for the Square add-on for the cluster 2.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: square-add-on-1-config
+  namespace: production
+  labels:
+    app: square
+    add-on: add-on-1
+    cluster: cluster-2
+    environment: production
+data:
+  platform: "square"
+  add_on: "add-on-1"
+  cluster: "cluster-2"
+  environment: "production"

@@ -1,1 +1,15 @@
-This is the config for the Cash add-on for the cluster 2.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cash-add-on-1-config
+  namespace: staging
+  labels:
+    app: cash
+    add-on: add-on-1
+    cluster: cluster-2
+    environment: staging
+data:
+  platform: "cash"
+  add_on: "add-on-1"
+  cluster: "cluster-2"
+  environment: "staging"
